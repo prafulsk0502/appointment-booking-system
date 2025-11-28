@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Appointment Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Book Appointment</h2>
+
+        <form id="bookingForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="date" id="date" required>
+            <input type="time" id="time" required>
+            <textarea id="reason" placeholder="Reason for Appointment" required></textarea>
+
+            <button type="submit">Book Now</button>
+        </form>
+
+        <p id="response"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
